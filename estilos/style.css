@@ -10,3 +10,23 @@ html {
     font-family: 'Roboto', sans-serif;
     /* font-family: 'Paytone One', sans-serif; */
 }
+
+.main {
+    margin: auto;
+    border: solid .1rem black;
+    display: flex;
+    width: 50%;
+    min-width: 360px;
+}
+
+.main-blog__title {
+    font-size: 2.2rem;
+    font-family: 'Paytone One', sans-serif;
+    background-color: #1C3879;
+    color: white;
+    height: 3.2rem;
+}
+
+.main-blog__paragraph {
+    font-size: 1.5rem;
+}
