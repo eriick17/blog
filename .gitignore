@@ -1,0 +1,8 @@
+# ignorar los archivos en el directorio imagenes
+/imagenes
+# ignorar los archivos comprimidos .zip
+*.zip
+# ignorar los archivos png, jpg, txt
+*.png
+*.jpg
+*.txt
