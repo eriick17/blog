@@ -61,3 +61,11 @@ html {
 .main-blog__paragraph {
     font-size: 1.5rem;
 }
+
+.footer {
+    width: 100%;
+    background-color: #01595c;
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+}
