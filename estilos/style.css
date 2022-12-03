@@ -11,18 +11,31 @@ html {
     /* font-family: 'Paytone One', sans-serif; */
 }
 
+body {
+    background-color: #353535;
+}
 .main {
     /* margin: auto; */
     /* border: solid .1rem black; */
     width: 100%;
-    min-width: 36rem;    
+    min-width: 36rem;  
 }
 
 .main div {
     padding: .5rem;
 }
 
+.logo {
+    width: 3rem;
+}
+
+.logo img {
+    width: 100%;
+    height: 100% ;
+}
+
 .main-blog {
+    background-color: #f3f3f3;
     text-align: left;
     margin: auto;
     min-width: 35rem;
@@ -38,10 +51,14 @@ html {
 .main-blog__cabecera {
     font-size: 3rem;
     font-weight: bold;
-    background-color: #3d53b6;
-    box-shadow: -1px 4px 7px 0px rgba(0,0,0,0.34);
-    color: #fafafa;
+    background-color: #8696e0;
+    box-shadow: -1px 4px 7px 0px rgba(20, 20, 20, 0.34);
+    color: #0e0d0d;
     width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
 }
 
 .main-blog__cabecera span {
