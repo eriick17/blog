@@ -26,6 +26,7 @@ body {
 }
 
 .logo {
+    display: inline-block;
     width: 3rem;
 }
 
@@ -55,16 +56,18 @@ body {
     box-shadow: -1px 4px 7px 0px rgba(20, 20, 20, 0.34);
     color: white;
     width: 100%;
-    display: flex;
+    /* display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: start;
+    justify-content: start; */
 }
 
 .main-blog__cabecera span {
     margin-left: .5rem;
     font-size: 2rem;
 }
+
+
 
 .main-blog__title {
     font-size: 2.2rem;
